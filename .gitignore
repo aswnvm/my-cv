@@ -1,0 +1,26 @@
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.brf
+*.run.xml
+
+
+*.bak
+*.bkp
+*.tmp
+*.swp
+*.swo
+
+.vscode/
+*.pdfsync
+*.synctex(busy)
+
+# cv.pdf
