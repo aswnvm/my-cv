@@ -17,7 +17,7 @@ Ensure you have the following installed:
 ### Compilation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cv.git
+   git clone https://github.com/aswnvm/cv.git
    cd cv
    ```
 2. Compile the LaTeX document:
@@ -28,7 +28,7 @@ Ensure you have the following installed:
 
 3. (Optional) Format the document using:
    ```bash
-   latexindent -w cv.tex
+   latexindent -w main.tex
    ```
 
 ## Updating Your CV
