@@ -34,7 +34,6 @@ Ensure you have the following installed:
 ## Updating Your CV
 1. Modify `main.tex` with your latest details.
 2. Compile the document as described above.
-3. Push changes to GitHub:
 
 
 ## License
