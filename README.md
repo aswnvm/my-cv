@@ -17,12 +17,12 @@ Ensure you have the following installed:
 ### Compilation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aswnvm/cv.git
-   cd cv
+   git clone https://github.com/aswnvm/my-cv.git
+   cd my-cv
    ```
 2. Compile the LaTeX document:
    ```bash
-   pdflatex cv.tex
+   pdflatex main.tex
    ```
    or using VS Code, press `Ctrl + Alt + B` to build.
 
