@@ -1,55 +1,39 @@
 \documentclass[letterpaper,10pt]{article}
 
-\usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-
-\input{glyphtounicode}
-
-% Font options
-\usepackage[sfdefault]{roboto}  % Sans-serif font
+\usepackage[sfdefault]{roboto}
+\usepackage{fontawesome5}
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
 \addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.8in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-
-% Section formatting
 \titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
 
-% Ensure PDF is machine readable
-\pdfgentounicode=1
-
-% Custom commands
 \newcommand{\resumeItem}[1]{\item\small{#1}}
 \newcommand{\resumeSubheading}[4]{
-\vspace{-1pt}\item
+\vspace{2pt}\item
   \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1} & #2 \\
     \textit{#3} & \textit{#4} \\
-  \end{tabular*}\vspace{-7pt}
+  \end{tabular*}\vspace{-5pt}
 }
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
@@ -57,107 +41,78 @@
 
 \begin{center}
   \textbf{\Huge Aswin V M} \\
-  \small +91-9961044944 $|$ \href{mailto:aswnvm@gmail.com}{aswnvm@gmail.com} $|$
-  \href{https://linkedin.com/in/aswin-vm}{linkedin} $|$
-  \href{https://github.com/aswnvm}{github} $|$
-  \href{https://aswnvm.space}{aswnvm.space}
+  \textsc{Data Analyst \quad - \quad Python Developer \quad - \quad ML Enthusiast} \\
+  % \small +91-9961044944 $|$ \href{mailto:aswnvm@gmail.com}{aswnvm@gmail.com} $|$
+  % \href{https://linkedin.com/in/aswin-vm}{linkedin.com/in/aswin-vm} $|$
+  % \href{https://github.com/aswnvm}{github.com/aswnvm} $|$
+  % \href{https://aswnvm.space}{aswnvm.space}
 \end{center}
 
-\section*{Summary}
-A passionate software professional with experience in Python and Cloud technologies. Proven track record in system architecture design, incident management, and delivery of scalable, high-performance applications. Strong foundation in Linux administration, database systems, and technical documentation. Skilled in web development, machine learning, and data analysis, with excellent communication and interpersonal skills.
+\section*{Professional Summary}
+Data Analyst with a foundation in Python, SQL, and data visualization. Experienced in building dashboards, deploying machine learning models, automating data workflows, and performing time series forecasting. Skilled in translating datasets into actionable insights, data storytelling, and collaborating cross-functionally to deliver impactful analytical solutions.
 
 \section{Technical Skills}
 \resumeSubHeadingList
-\resumeItem{\textbf{Programming Languages}: Python, Java, SQL, Shell scripting}
-\resumeItem{\textbf{Machine Learning \& Data Science}: NumPy, Pandas, SciPy, Scikit-learn, Matplotlib, Seaborn, OpenCV}
-
-\resumeItem{\textbf{Tools \& Frameworks}: Docker, GIT, AWS, Jira, Microsoft Excel, Power BI, Tableau}
+\resumeItem{\textbf{Languages}: Python, SQL, Shell Scripting}
+\resumeItem{\textbf{Data \& ML}: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, OpenCV, Time Series Forecasting}
+\resumeItem{\textbf{Visualization}: Power BI, Tableau, Advanced Excel (Pivot Tables, Power Query, VLOOKUP)}
+\resumeItem{\textbf{Cloud \& Tools}: AWS (S3, EC2, Redshift), Docker, Git, Jira, Jenkins}
 \resumeSubHeadingListEnd
 
 \section{Experience}
 \resumeSubHeadingList
+
 \resumeSubheading
-{Software Development Engineer (SDE)}{Jan 2023 -- April 2025}
+{Software Development Engineer (SDE)}{Jan 2023 -- Apr 2025}
 {Neuome Technologies}{Bengaluru, India}
 \resumeSubHeadingList
-\resumeItem{\textbullet\ Engineered and developed scalable data solutions.}
-\resumeItem{\textbullet\	Implemented risk mitigation strategies, reducing critical project risks and ensuring on-time project delivery.}
-\resumeItem{\textbullet\ Documented and presented findings at weekly meetings.}
+\resumeItem{\textbullet\ Built data pipelines for biomedical image analysis and decision support.}
+\resumeItem{\textbullet\ Automated anomaly detection, improving data accuracy by 30\%.}
+\resumeItem{\textbullet\ Delivered weekly insights to cross-functional stakeholders using visual dashboards.}
+% \resumeItem{Designed time-series-based analysis models to improve trend detection and monitoring.}
 \resumeSubHeadingListEnd
+
 \resumeSubheading
-{Data Analyst}{May 2022 -- Dec 2022}
+{Junior Data Analyst}{May 2022 -- Dec 2022}
 {Nelise Freelancers}{Thrissur, India}
 \resumeSubHeadingList
-% \resumeItem{\textbullet\ Leveraged data, automation, and ML to enhance business and hiring efficiency.}
-\resumeItem{\textbullet\ Conducted data analysis to drive business decisions.}
-\resumeItem{\textbullet\ Optimized processes, and enhanced recruitment strategies.}
-\resumeItem{ \textbullet\ Contributed to enhancing business and hiring efficiency.}
+\resumeItem{\textbullet\ Analyzed recruitment data to identify bottlenecks and forecast hiring trends.}
+\resumeItem{\textbullet\ Created Power BI dashboards, reducing hiring time by 25\%.}
+\resumeItem{\textbullet\ Collaborated with hiring teams to develop data-driven workflows and visual reporting tools.}
 \resumeSubHeadingListEnd
 \resumeSubHeadingListEnd
 
 \section{Projects}
 \resumeSubHeadingList
-\resumeSubheading
-{NeuImager }{2024 -- 2025}
-{Gel Imaging device}{Python, Shell script, Docker}
-\resumeSubHeadingList
-\resumeItem{\textbullet\ Built a Python Kivy GUI with real-time gel image capture.}
-% \resumeItem{\textbullet\ Integrated Wi-Fi for seamless connectivity.}
-% \resumeItem{\textbullet\	Developed a user-friendly GUI with Python Kivy framework}
-% \resumeItem{\textbullet\ 	Integrated real-time gel image capture, reducing retrieval time by 50\%}
-% \resumeItem{\textbullet\ 	Enabled seamless connectivity through Wi-Fi integration}
+\resumeItem{\textbf{NeuImager} – Gel Imaging Tool (Python, Docker): Built GUI for real-time image capture and lab automation using Python and Docker.}
+\resumeItem{\textbf{Truheart} – Cardiac Arrest Detection (Python, AWS, OpenCV): Developed image-based ML system to predict cardiac risks with 93\% accuracy. Integrated real-time detection with AWS cloud storage for alerts and reporting.}
+\resumeItem{\textbf{Job Market Analytics} (Python, Power BI, SQL): Designed predictive models and dashboards for HR analytics. Incorporated A/B testing features and campaign success forecasting.}
 \resumeSubHeadingListEnd
-
-\resumeSubheading
-{Truheart}{2023 --  2024}
-{Cardiac arrest detection device using ML}{Python, Shell script, AWS, Docker, Ms Excel}
-\resumeSubHeadingList
-\resumeItem{\textbullet\ Developed a PySimpleGUI-based GUI with camera and Wi-Fi management.}
-\resumeItem{\textbullet\ Implemented image data collection protocols, enhancing analysis precision and increasing ROI detection accuracy.}
-% \resumeItem{\textbullet\	Developed a GUI integrated with camera and WiFi management system using PysimplGUI framework }
-% \resumeItem{\textbullet\	Evaluated and implemented image data collection protocols}
-% \resumeItem{\textbullet\	Enhanced data analysis precision, increasing ROI detection accuracy by 40\%}
-\resumeSubHeadingListEnd
-
-\resumeSubheading
-{Job Market Analytics \& Candidate Matching System }{2022 --  2023}
-{AI-driven system matching candidates to jobs using market analytics}{PowerBI, Python, SQL}
-\resumeSubHeadingList
-\resumeItem{\textbullet\ Built dashboards, predictive models, and automations to analyze recruitment data and support strategic hiring decisions.}
-% \resumeItem{\textbullet\ Developed a phishing detection system with 90\% accuracy using Random Forest and a user-friendly interface.}
-% \resumeItem{\textbullet\	Conducted research on mitigation strategies against the phishing attacks }
-% \resumeItem{\textbullet\	Built a phishing detection system with 90\% accuracy using Random Forest}
-% \resumeItem{\textbullet\	Integrated a user-friendly interface for seamless interaction}
-\resumeSubHeadingListEnd
-\resumeSubHeadingListEnd
-
-% \resumeSubheading
-%     {Anti-Phish}{2021 --  2022}
-%     {ML based tool for detection and prevention of phishing websites}{HTML, CSS, PHP, Python, Scikit-learn, MySQL}
-%     \resumeSubHeadingList
-%     % \resumeItem{\textbullet\ Researched mitigation strategies for phishing attacks.}
-%     \resumeItem{\textbullet\ Developed a phishing detection system with 90\% accuracy using Random Forest and a user-friendly interface.}
-%         % \resumeItem{\textbullet\	Conducted research on mitigation strategies against the phishing attacks }
-%         % \resumeItem{\textbullet\	Built a phishing detection system with 90\% accuracy using Random Forest}
-%         % \resumeItem{\textbullet\	Integrated a user-friendly interface for seamless interaction}
-%     \resumeSubHeadingListEnd
 
 \section{Education}
 \resumeSubHeadingList
 \resumeSubheading
-{APJ Abdul Kalam Technological University}{Ernakulam, India}
-{Bachelor of Technology in Computer Science }{Aug 2017 -- June 2021}
+{B.Tech in Computer Science}{Aug 2017 -- Jun 2021}
+{APJ Abdul Kalam Technological University}{Ernakulam, India} 
 % \textbf{(CGPA: 6.6/10)}
 \resumeSubHeadingListEnd
 
 \section{Certifications}
-\begin{tabular}{p{10cm}p{10cm}}
-  • Google Data Analytics     & • Hands-On Python Data Science - Data Science Bootcamp   
-  \\
-  • PowerBI for beginners     & • Complete Python Developer in 2023: Zero to Mastery
-  \\
-  % • PowerBI for beginners                              & • Complete Python Developer in 2023: Zero to Mastery \\
-\end{tabular}
+\begin{tabularx}{\textwidth}{X X}
+\textbullet\ Google Data Analytics (Coursera) & \textbullet\ Python for Data Science Bootcamp (Udemy) \\
+\textbullet\ Power BI for Beginners (Simplilearn) & \textbullet\ Complete Python Developer – Zero to Mastery (Udemy) \\
+\end{tabularx}
 
+
+\section*{Links}
+{\small
+\begin{center}
+\faPhone\ \texttt{+91-9961044944} \hspace{2em}
+\faEnvelope\ \href{mailto:aswnvm@gmail.com}{\texttt{aswnvm@gmail.com}} \hspace{2em}
+\faGlobe\ \href{https://aswnvm.space}{\texttt{aswnvm.space}} \hspace{2em}
+\faLinkedin\ \href{https://linkedin.com/in/aswin-vm}{\texttt{linkedin.com/in/aswin-vm}} \hspace{2em}
+\faGithub\ \href{https://github.com/aswnvm}{\texttt{github.com/aswnvm}}
+\end{center}
+}
 
 \end{document}
